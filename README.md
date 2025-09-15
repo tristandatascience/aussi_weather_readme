@@ -28,6 +28,7 @@ Pipeline ML end-to-end automatisant la prédiction de pluie en Australie :
 
 ![Architecture AussieWeatherFlow](./doc/images/FluxAussieWeatherFlow.svg)
 
+
 **Flux de données :** Scraping → ETL/Airflow → PostgreSQL → MLflow → API FastAPI → Dashboard Streamlit → Monitoring
 
 ## 🔄 Pipelines Airflow
